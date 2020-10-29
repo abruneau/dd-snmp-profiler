@@ -193,15 +193,15 @@ Project Link: [https://github.com/abruneau/dd-snmp-profiler](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/abruneau/repo.svg?style=flat-square
-[contributors-url]: https://github.com/abruneau/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/abruneau/repo.svg?style=flat-square
-[forks-url]: https://github.com/abruneau/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/abruneau/repo.svg?style=flat-square
-[stars-url]: https://github.com/abruneau/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/abruneau/repo.svg?style=flat-square
-[issues-url]: https://github.com/abruneau/repo/issues
-[license-shield]: https://img.shields.io/github/license/abruneau/repo.svg?style=flat-square
+[contributors-shield]: https://img.shields.io/github/contributors/abruneau/dd-snmp-profiler.svg?style=flat-square
+[contributors-url]: https://github.com/abruneau/dd-snmp-profiler/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/abruneau/dd-snmp-profiler.svg?style=flat-square
+[forks-url]: https://github.com/abruneau/dd-snmp-profiler/network/members
+[stars-shield]: https://img.shields.io/github/stars/abruneau/dd-snmp-profiler.svg?style=flat-square
+[stars-url]: https://github.com/abruneau/dd-snmp-profiler/stargazers
+[issues-shield]: https://img.shields.io/github/issues/abruneau/dd-snmp-profiler.svg?style=flat-square
+[issues-url]: https://github.com/abruneau/dd-snmp-profiler/issues
+[license-shield]: https://img.shields.io/github/license/abruneau/dd-snmp-profiler.svg?style=flat-square
 [license-url]: https://github.com/abruneau/repo/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/antoninbruneau
