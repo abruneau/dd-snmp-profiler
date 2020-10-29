@@ -202,7 +202,7 @@ Project Link: [https://github.com/abruneau/dd-snmp-profiler](https://github.com/
 [issues-shield]: https://img.shields.io/github/issues/abruneau/dd-snmp-profiler.svg?style=flat-square
 [issues-url]: https://github.com/abruneau/dd-snmp-profiler/issues
 [license-shield]: https://img.shields.io/github/license/abruneau/dd-snmp-profiler.svg?style=flat-square
-[license-url]: https://github.com/abruneau/repo/blob/master/LICENSE.txt
+[license-url]: https://github.com/abruneau/repo/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/antoninbruneau
 [product-screenshot]: images/screenshot.png
