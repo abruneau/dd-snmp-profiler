@@ -39,9 +39,9 @@
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
-<!-- * [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation) -->
+* [Getting Started](#getting-started)
+  * [Homebrew](#homebrew)
+  * [Form source](#form-source)
 * [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
@@ -70,29 +70,31 @@
 
 
 <!-- GETTING STARTED -->
-<!-- ## Getting Started
+## Getting Started
 
 To get a local copy up and running follow these simple steps.
 
-### Prerequisites
+You can find compiled versions for different platforms in the [release](https://github.com/abruneau/dd-snmp-profiler/releases) section
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+### Homebrew
+
+`dd-snmp-profiler` is available as a brew formula
+
 ```sh
-npm install npm@latest -g
+brew install abruneau/tab/dd-snmp-profiler
 ```
 
-### Installation
+### Form source
 
 1. Clone the repo
 ```sh
 git clone https://github.com/abruneau/dd-snmp-profiler.git
 ```
-2. Install NPM packages
+2. build
 ```sh
-npm install
+go build
 ```
- -->
+
 
 
 <!-- USAGE EXAMPLES -->
