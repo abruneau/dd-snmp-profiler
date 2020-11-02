@@ -22,7 +22,7 @@ func parseTable(moduleName string, table gosmi.Table) models.TableMetric {
 	}
 
 	for _, column := range table.Columns {
-		if column.Oid[len(column.Oid)-1] == 1 {
+		if len(column.Oid) > 0 && column.Oid[len(column.Oid)-1] == 1 {
 			metric.MetricTags = append(metric.MetricTags, models.MetricTag{
 				Column: models.NewSymbol(column.Oid.String(), column.Name, column.Description),
 			})
@@ -55,14 +55,17 @@ func ParseMIBModule(path, module, output string, debug bool) error {
 
 	for _, node := range m.GetNodes() {
 
-		if node.Kind.String() == "Scalar" {
-			metric := parseScalar(m.Name, node)
-			profile.Metrics = append(profile.Metrics, metric)
-		}
+		if node.Status.String() == "Current" {
 
-		if node.Kind.String() == "Table" {
-			metric := parseTable(m.Name, node.AsTable())
-			profile.Metrics = append(profile.Metrics, metric)
+			if node.Kind.String() == "Scalar" {
+				metric := parseScalar(m.Name, node)
+				profile.Metrics = append(profile.Metrics, metric)
+			}
+
+			if node.Kind.String() == "Table" {
+				metric := parseTable(m.Name, node.AsTable())
+				profile.Metrics = append(profile.Metrics, metric)
+			}
 		}
 	}
 
